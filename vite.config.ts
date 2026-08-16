@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/invest/', // Replace with your exact GitHub repository name
+  base: 'https://github.com/onbiasedco-oss/invest.git', // Replace with your exact GitHub repository name
 })
 
 // https://vitejs.dev/config/
