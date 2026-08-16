@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>NACCI Members Club - Investment Education Platform</title>
+    <meta name="description" content="A comprehensive web app for investment education, real-time market analysis, and content management with role-based access." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://naccimembersclub.com" />
+
+    <!-- Mobile Web App Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="NACCI Members Club" />
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Prevent phone number detection -->
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:title" content="NACCI Members Club - Investment Education Platform" />
+    <meta property="og:description" content="A comprehensive web app for investment education, real-time market analysis, and content management with role-based access." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://naccimembersclub.com" />
+    <meta property="og:image" content="/og.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/og.jpg" />
+    
+    <style>
+      /* Prevent pull-to-refresh on mobile */
+      html, body {
+        overscroll-behavior-y: contain;
+      }
+      
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      /* Fix for iOS input zoom */
+      @media screen and (max-width: 767px) {
+        input, select, textarea {
+          font-size: 16px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
